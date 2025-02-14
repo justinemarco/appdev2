@@ -1,0 +1,31 @@
+*Introduction:*
+  Hello! I'm Justine and as you may already know, I am one of the most hyper students in class and have some difficulties grasping the concepts 
+  in the technical aspects or side of this program but I strive to try and understand it as best as I can. For Application Development 2, 
+  the programming languages that I know or am familiar with are Java but that was way back first year so it might be difficult for me to remember 
+  since we haven't been really using this specific language ever since, some Python concepts as we used it in our Data Structures and Algorithms course, 
+  and of course JavaScript as we have tackled it throughout our Web Application Development course until now. 
+  Node.js may seem familiar to me as I have heard it in our DSA course but other than that, I do not have any experience with backend development.
+
+*Course Expectations:*
+  In this course, I want to achieve, of course to pass this course with passing, if not, high grades or marks. I would also like to understand 
+  how backend development works and if there are certain techniques or tools used for specific or different cases or is it all just the same. 
+  The skills that I hope to learn may not be as deep as my other classmates' answers since I am not really a technical kind of person, but I hope to learn at least 
+  the gist of the course, maybe how to use Node.js because our DSA course was really a whirlwind experience due to the fact as well that we were learning it in Python 
+  but we did not have any background knowledge about it because during our Computer Programming courses, we were learning Java. Technically, the foundation for this course 
+  may not have been instilled in me. But I would definitely try my best to try and understand and at least pass the course. 
+  I think backend development will help me in my career since all systems would require or need backend development to function, being able to understand how 
+  backend development works, the ins and outs of backend development, it would help us work together with other members of a team better.   
+
+*Challenges and Areas for Improvement:*
+  As our instructor in this course, I expect that you be more patient with us. Your patience throughout you being our instructor has been evident, 
+  and with that we are truly most grateful. However, I think this course would be harder for me to grasp because we are not only talking about just coding 
+  but we also have to take into account the logic, process, and how to code these in order for it to work. For me, I would really appreciate creating a repository for us 
+  to access the activities or the demonstration you are teaching us during class. During class, I'm having a hard time following your pace because 
+  I can't catch up on what you are coding. The recordings are useful, but it's a little time consuming and I have to rewind or play the video back 
+  multiple times just for me to catch up. 
+
+*Final Thoughts:*
+  I hope I understand the course. It has been really difficult for me to understand the technical aspects in this program since I am really not a tech-savvy person 
+  and technology has not really been my forte. But I hope I would perform better even though the courses get harder each time a semester passes by. 
+  I would also like to extend my gratitude to you Sir for being really lenient and understanding as much as you can, and generous, especially when it comes to 
+  giving us grades. I don't think I deserve such high marks, but thank you Sir.
