@@ -6,15 +6,14 @@ const hostname = "localhost"
 const server = http.createServer((req, res) => {
     // console.log(req);
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end('Hello, Node.js!');  
+    
 
-    if (req.method === "GET") {
-        res.end("This is a GET METHOD");
-    } else if (req.method === "POST") {
-        res.end("This is a POST METHOD");
+    if (req.url === "/greet") {
+        res.writeHead(200, {"Content-Type": "text/plain"});
+        res.end("Hello, welcome to Node.js!");
     } else {
-        res.end("Neither GET or POST METHOD, possibly PUT, PATCH, or DELETE method");
+        res.writeHead(404, {"Content-Type": "text/plain"});
+        res.end("Page not found");
     }
 });
 
