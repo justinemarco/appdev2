@@ -63,8 +63,8 @@ app.post('/api/books', async (req, res) => {
 
   try {
     const newBook = new Book({ title, author });
-    await newBook.save();
-    res.status(201).json(newBook);
+    const savedBook = await newBook.save();
+    res.status(200).json(newBook);
   } catch (err) {
     res.status(500).json({ message: 'Error creating book' });
   }
