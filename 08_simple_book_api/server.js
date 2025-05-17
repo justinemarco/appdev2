@@ -5,15 +5,14 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 // const PORT = 3000;
+const mongo_URI = process.env.mongo_URI;
 const PORT = process.env.PORT || 3000;
-require('dotenv').config
+require('dotenv').config();
 
 // MIDDLEWARE
 app.use(express.json()); 
 
-const mongoURI = 'mongodb+srv://justinejynnepatricemarco:iZjnsFZYShl0sUEb@bookapi.ewnyuyx.mongodb.net/?retryWrites=true&w=majority&appName=BookAPI'
-
-mongoose.connect(mongoURI)
+mongoose.connect(process.env.mongo_URI)
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
 

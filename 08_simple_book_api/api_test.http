@@ -1,0 +1,31 @@
+### Root - Welcome Message
+GET http://localhost:3000/
+
+### Get All Books
+GET http://localhost:3000/api/books
+Content-Type: application/json
+
+### Get a Book by ID
+GET http://localhost:3000/api/books/6827fb84a4d7db55c94b15e7
+Content-Type: application/json
+
+### Create a New Book
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald"
+}
+
+### Update a Book by ID
+PATCH http://localhost:3000/api/books/68273449747f1e441fe376ea
+Content-Type: application/json
+
+{
+  "title": "The Greatest Gatsby"
+}
+
+### Delete a Book by ID
+DELETE http://localhost:3000/api/books/68273449747f1e441fe376ea
+Content-Type: application/json
