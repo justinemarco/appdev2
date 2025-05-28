@@ -3,8 +3,6 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
 const bookRouter = require('./routers/bookRouter');
-app.use('/api/books', bookRouter);
-
 const authRoutes = require('./routers/authRouter');
 
 const app = express();
